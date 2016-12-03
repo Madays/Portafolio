@@ -14,7 +14,6 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="img-hero">
         <header>
             <div class="container">
             <div class="row">
@@ -46,25 +45,56 @@
                     </div>
                 </nav>
             </div>  
-        </header>
         <section class="banner">  
                 <div class="contenedor-banner">
                     <div class="content-banner">    
-                        <div class="introduccion text-center">
+                        <div class="introduccion">
                             <p>HOLA, MI NOMBRE ES MADAY SOY CODER DE LABORATORIA</p>
                             <p>Estas interesado en desarrollar un sitio web o necesitas una frontend developer yo te puedo ayudar con los diferentes servicios que brindo</p>
                         </div>
-                        <button class="btn btn-defaul btn-primary">CONOCEME MÁS</button>
+                        <button class="btn btn-defaul">CONOCEME MÁS</button>
                     </div> 
                 </div>
         </section> 
-    </div>
-    <footer>
-        <h2>SOBRE MI</h2>
-        <hr>
-        <p>Soy egresada de laboratoria con el titulo de Frontend developer Jr. desarrollo pginas web en HTML/CSS/Javascript. Soy creativa, inteligente y alegre cosa que demuestro en cada uno de los trabajos que desarrollo.</p>
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-9 col-sm-4">
+                    <h1><a href="index.html">MI PORTAFOLIO</a></h1>
+                </div>
+                <div class="col-xs-3 col-sm-8">    
+                    <div class="text-right visible-xs">
+                        <button class="btn" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+                    </div>   
+                    <nav class="hidden-xs">
+                        <ul class="desktop-menu list-inline text-right">
+                            <li class="menu__item"><a class="menu__link" href="index.html">SOBRE MI</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#documental">SERVICIOS</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#hackathon">MIS TRABAJOS</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#contacto">CONTACTAME</a></li>
+                        </ul>
+                    </nav>                                          
+                </div>
+            </div> 
+                <nav class="visible-xs">
+                    <div id="main-navigation" class="collapse">
+                        <ul  class="mobile-menu text-right">
+                            <li class="menu__item"><a class="menu__link" href="index.html">SOBRE MI</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#documental">SERVICIOS</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#hackathon">MIS TRABAJOS</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#contacto">CONTACTAME</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>         
+        </header>        
+    <footer class="text-center">
+        <div class="container-footer">
+            <h2>SOBRE MI</h2>
+            <hr>
+            <p>Soy egresada de laboratoria con el titulo de Frontend developer Jr. desarrollo pginas web en HTML/CSS/Javascript. Soy creativa, inteligente y alegre cosa que demuestro en cada uno de los trabajos que desarrollo.</p>
+        </div>
     </footer>    
-    <section class="nuestros-servicios" id="que-me-ofrece">
+    <section class="servicios">
 	        <div class="container">
                 <h2 class="text-center">SERVICIOS</h2>
                 <hr>

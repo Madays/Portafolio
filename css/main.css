@@ -1,4 +1,9 @@
-.img-hero{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
     background-image: url("../img/header.jpg");
     background-size: cover;
 }
@@ -9,5 +14,27 @@
     font-size: 30px;
 }
 .content-banner{
-    padding: 190px 0;    
+    padding: 190px 0;   
+    text-align: center;
 }
+header .banner button{
+    background: #F05F40;
+    border-radius: 20px;    
+}
+footer{
+    position: relative;
+    top: -100px;
+    background: rgba(240, 95, 64,.6);
+    padding-top: 40px;
+    color: #fff;
+}
+.container-footer{
+    background: #F05F40;
+    padding: 20px 300px 60px 300px;
+}
+
+/*-------nuestros-servicios*/
+section.servicios{
+    
+}
+/*-----END--nuestros-servicios*/
