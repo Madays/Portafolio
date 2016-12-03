@@ -1,5 +1,8 @@
 @media screen and (max-width:768px){
 .container-footer{
         padding: 20px 50px 60px 50px;
-    }    
+    }  
+.banner p:nth-child(2){
+    padding: 0 50px;
+}    
 }
