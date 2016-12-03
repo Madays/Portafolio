@@ -21,6 +21,7 @@ header .banner button{
     background: #F05F40;
     border-radius: 20px;    
 }
+/*------------footer*/
 footer{
     position: relative;
     top: -100px;
@@ -32,7 +33,11 @@ footer{
     background: #F05F40;
     padding: 20px 300px 60px 300px;
 }
-
+.container-footer hr{
+    display: inline-block;
+    padding: 0 30px;
+}
+/*----------END--footer*/
 /*-------nuestros-servicios*/
 section.servicios{
     
