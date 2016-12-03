@@ -1,0 +1,13 @@
+.img-hero{
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+}
+.banner{
+    color: #fff;
+}
+.banner p:first-child{
+    font-size: 30px;
+}
+.content-banner{
+    padding: 190px 0;    
+}
