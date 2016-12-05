@@ -13,6 +13,9 @@
 .banner p:nth-child(2){
     padding: 0 50px;
 }  
+    footer{
+        top: -55px;
+    }
     section.github .row div.box-background{
         background: rgba(240, 95, 64,.6);
         z-index:10;
@@ -29,8 +32,11 @@
     .contactame{
     padding: 20px 300px 60px 300px;
     }
-    header nav {
-    padding: 5px 0;
+    header h1{
+        padding-top: 4px;
+    }
+    a.menu__link{
+        padding: 10px;
     }
 }
 /*------------DESKTOP-----*/
