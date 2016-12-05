@@ -90,30 +90,30 @@ section.servicios .box-icono h4{
     font-weight: bold;
 }
 /*-----END--nuestros-servicios*/
-/*-------container-github*/
-section.github{
+/*-------container-mis-trabajos*/
+section.mis-trabajos{
     background: #222222;
 }
-section.github .col-sm-4, section.github .row{
+section.mis-trabajos .col-sm-4, section.mis-trabajos .row{
     padding: 0;
     margin: 0;    
 }
-section.github img{
+section.mis-trabajos img{
     display: inline-block;
 }
-section.github button{
+section.mis-trabajos button{
     background: #fff;
     border-radius: 20px;    
 }
-/*-----END--container-github*/
-/*--------footer-github*/
-.footer-github{
+/*-----END--container-mis-trabajos*/
+/*--------footer-mis-trabajos*/
+.footer-mis-trabajos{
     padding: 20px 0;
 }
-.footer-github p{
+.footer-mis-trabajos p{
     color: #fff;    
 }
-/*-----END---footer-github*/
+/*-----END---footer-mis-trabajos*/
 /*--------Contactame*/
 section.contactame .box-icono{ 
     font-size: 25px;
