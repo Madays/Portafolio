@@ -11,7 +11,7 @@
         color: #F05F40;        
     }
 .content-banner{
-    padding: 40px 20px;   
+    padding: 120px 20px 40px 20px;   
     text-align: center;
 }
 .container-footer{
@@ -40,28 +40,15 @@
     .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
         opacity: 1;
     }
-
-    /*section.github .box-categoria-proyecto p{
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin: 0 auto;
-        padding: 40px 0;
-        display: block;
-        font-size: 30px;
-        background: rgba(240, 95, 64,.6);
-        color: #fff;
-    }*/
-   
     .contactame{
     padding: 20px 30px 60px 30px;
     }
 }
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
-    .contactame{
-    padding: 20px 300px 60px 300px;
+    header{
+        background-image: url("../img/header.jpg");
+        background-size: cover;
     }
     header h1{
         padding-top: 4px;
@@ -69,15 +56,26 @@
     a.menu__link{
         padding: 10px;
     }
+    .contactame{
+    padding: 20px 300px 60px 300px;
+    }    
 }
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
+    header{
+        background-image: url("../img/header.jpg");
+        background-size: cover;
+    }
     header h1{
         font-size: 35px;
     }    
 }
 /*------------DESKTOP LARGE-----*/
 @media screen and (min-width:1200px){
+    header{
+        background-image: url("../img/header.jpg");
+        background-size: cover;
+    }
     header h1{
         font-size: 45px;
     } 
