@@ -23,12 +23,20 @@
     footer{
         top: -48px;
     }
-    section.github .row div.box-background{
-        background: rgba(240, 95, 64,.6);
-        z-index:10;
+    .box-categoria-proyecto{
+        position: relative;
     }
-    section.github .row div.box-background img{
-        z-index: -100;
+    section.github .box-categoria-proyecto p{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        padding: 40px 0;
+        display: block;
+        font-size: 30px;
+        background: rgba(240, 95, 64,.6);
+        color: #fff;
     }
     .contactame{
     padding: 20px 30px 60px 30px;
