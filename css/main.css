@@ -69,21 +69,15 @@ nav li a:hover, nav li a:focus{
 }
 /*----------END---banner*/
 /*------------footer*/
-footer{
-    position: relative;
-    top: -77px;
-    background: rgba(240, 95, 64,.6);
-    padding-top: 40px;
-    color: #fff;
-}
 .container-footer{
     background: #F05F40;
     padding: 20px 300px 60px 300px;
+    color: #fff;
 }
 /*----------END--footer*/
 /*-------nuestros-servicios*/
 section.servicios{
-    margin: -50px 0 40px 0;        
+    margin: 40px 0;        
 }
 section.servicios .box-icono{
     color: #F05F40; 

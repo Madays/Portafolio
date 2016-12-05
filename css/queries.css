@@ -21,12 +21,27 @@
     padding: 0 50px;
 }  
     footer{
-        top: -48px;
+        top: -48px;     
     }
-    .box-categoria-proyecto{
-        position: relative;
+    .box-categoria-proyecto p{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        padding: 70px 0;
+        display: block;
+        font-size: 30px;
+        background: rgba(240, 95, 64,.6);
+        color: #fff;
+        opacity: 0;
     }
-    section.github .box-categoria-proyecto p{
+    .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
+        opacity: 1;
+    }
+
+    /*section.github .box-categoria-proyecto p{
         position: absolute;
         top: 0;
         right: 0;
@@ -37,7 +52,8 @@
         font-size: 30px;
         background: rgba(240, 95, 64,.6);
         color: #fff;
-    }
+    }*/
+   
     .contactame{
     padding: 20px 30px 60px 30px;
     }
@@ -64,5 +80,8 @@
 @media screen and (min-width:1200px){
     header h1{
         font-size: 45px;
-    }    
+    } 
+        footer{
+        top: -68px;
+    }
 }
