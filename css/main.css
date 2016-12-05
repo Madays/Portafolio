@@ -3,9 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-header{
+.hero{
     background-image: url("../img/header.jpg");
     background-size: cover;
+}
+header{
+    padding: 20px 0;
+}
+header h1{
+    margin: 0;
+    font-size: 25px;
+}
+header a{
+    color: #fff;
+}
+header nav {
+    padding: 10px 0;
 }
 .banner{
     color: #fff;
@@ -20,9 +33,10 @@ header{
     padding: 190px 20px;   
     text-align: center;
 }
-header .banner button{
+.hero .banner button{
     background: #F05F40;
-    border-radius: 20px;    
+    border-radius: 20px; 
+    margin: 80px 0;
 }
 /*------------footer*/
 footer{
@@ -41,11 +55,11 @@ footer{
 section.servicios{
     margin: -50px 0 40px 0;        
 }
-.box-icono{
+section.servicios .box-icono{
     color: #F05F40; 
     font-size: 40px;
 }
-.box-icono h4{
+section.servicios .box-icono h4{
     font-weight: bold;
 }
 /*-----END--nuestros-servicios*/
@@ -58,16 +72,26 @@ section.github .col-sm-4, section.github .row{
     margin: 0;    
 }
 section.github img{
-    display: block;
-    max-width: 100%;
+    display: inline-block;
 }
-ul.gallery{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+section.github button{
+    background: #fff;
+    border-radius: 20px;    
 }
 /*-----END--container-github*/
-
+/*--------footer-github*/
+.footer-github{
+    padding: 20px 0;
+}
+.footer-github p{
+    color: #fff;    
+}
+/*-----END---footer-github*/
+/*--------Contactame*/
+section.contactame .box-icono{ 
+    font-size: 25px;
+}
+p#email-maday{
+    color: #F05F40;     
+}
+/*-----END---Contactame*/
