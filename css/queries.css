@@ -22,24 +22,7 @@
 }  
     footer{
         top: -48px;     
-    }
-    .box-categoria-proyecto p{
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin: 0 auto;
-        padding: 70px 0;
-        display: block;
-        font-size: 30px;
-        background: rgba(240, 95, 64,.6);
-        color: #fff;
-        opacity: 0;
-    }
-    .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
-        opacity: 1;
-    }
+    }    
     .contactame{
     padding: 20px 30px 60px 30px;
     }
@@ -56,6 +39,7 @@
     a.menu__link{
         padding: 10px;
     }
+    
     .contactame{
     padding: 20px 300px 60px 300px;
     }    

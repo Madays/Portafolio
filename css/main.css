@@ -105,6 +105,24 @@ section.mis-trabajos button{
     background: #fff;
     border-radius: 20px;    
 }
+.box-categoria-proyecto p{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0 auto;
+        padding: 70px 0;
+        display: block;
+        font-size: 30px;
+        background: rgba(240, 95, 64,.6);
+        color: #fff;
+        opacity: 0;
+    }
+    .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
+        opacity: 1;
+    }
 /*-----END--container-mis-trabajos*/
 /*--------footer-mis-trabajos*/
 .footer-mis-trabajos{
