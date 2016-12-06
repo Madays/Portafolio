@@ -86,8 +86,9 @@ section.servicios .box-icono{
     color: #F05F40; 
     font-size: 40px;
 }
-section.servicios .box-icono h4{
-    font-weight: bold;
+section.servicios p{
+    vertical-align: top;
+    color: purple;
 }
 /*-----END--nuestros-servicios*/
 /*-------container-mis-trabajos*/
@@ -105,21 +106,32 @@ section.mis-trabajos button{
     background: #fff;
     border-radius: 20px;    
 }
+.box-categoria-proyecto{
+    position: relative;        
+}
+.box-p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+    background: rgba(240, 95, 64,.6);
+    opacity: 0;
+}
+.box-p:hover,.box-p:focus,.box-p:active{
+    opacity: 1;
+}
 .box-categoria-proyecto p{
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        margin: 0 auto;
-        padding: 70px 0;
-        display: block;
-        font-size: 30px;
-        background: rgba(240, 95, 64,.6);
-        color: #fff;
-        opacity: 0;
-    }
+    position: absolute;
+    font-size: 30px;        
+    color: #fff;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: translateY(-50%);  
+}
+
     .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
         opacity: 1;
     }
